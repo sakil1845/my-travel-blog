@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;800;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.primary-color {
+    color: #5A5A5D;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    margin: 52px 135px 100px;
+}
+
+.main,
+header {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/*header section*/
+header {
+    margin-top: 55px;
+}
+
+.nav-header {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-title {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 44px;
+}
+
+nav li {
+    list-style: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+ul .home {
+    color: #FF5400;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.hamburger-button {
+    display: none;
+}
+
+
+/*banner section */
+
+.banner {
+    margin-top: 50px;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.banner-content {
+    padding-top: 120px;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.banner-description {
+    margin-top: 30px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 676px;
+    margin: auto;
+    margin-bottom: 75px;
+}
+
+
+.button-primary {
+    height: 52px;
+    width: 174px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 0;
+    padding: 15px;
+    color: rgba(19, 19, 24, 0.50);
+}
+
+.button-container {
+    background: rgba(255, 255, 255, 0.30);
+    margin-top: 75px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding: 16px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.search-button {
+    height: 52px;
+    width: 174px;
+    border-radius: 10px;
+    border: 0;
+    font-weight: 700;
+    color: #FFF;
+    font-size: 16px;
+    background: #FF5400;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
