@@ -188,7 +188,82 @@ ul .home {
     width: 540px;
     height: 550px;
     border-radius: 16px;
-    background: url(../images/Rectangle\ 4.png), lightgray 50% / cover no-repeat;
+    background: url('../images/Rectangle\ 4.png'), lightgray 50% / cover no-repeat;
 }
 
 
+/*Choose Your Destination */
+
+
+
+
+.destination-img {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.grid-info {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.grid-info-des {
+    width: 643px;
+    margin: 0 auto;
+}
+
+
+
+.maldive {
+    color: #FFF;
+    position: absolute;
+    top: 145px;
+    left: 160px;
+}
+
+.indonesia {
+    color: #FFF;
+    position: absolute;
+    top: 145px;
+    right: 140px;
+}
+
+
+.srilanka {
+    color: #FFF;
+    position: absolute;
+    top: 145px;
+    left: 65px;
+}
+
+.america {
+    color: #FFF;
+    position: absolute;
+    top: 140px;
+    left: 500px;
+}
+
+.kashmir {
+    position: absolute;
+    color: #FFF;
+    top: 140px;
+    right: 10px;
+}
+
+.bangladesh {
+    color: #FFF;
+    position: absolute;
+    top: 140px;
+    left: 100px;
+}
+
+.bandarban {
+    color: #FFF;
+    position: absolute;
+    top: 140px;
+    right: 200px;
+}
