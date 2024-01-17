@@ -477,18 +477,22 @@ input {
 }
 
 
-footer section
+/* footer section  */
 
 .footer-section {
     margin-top: 120px;
     text-align: center;
     background: rgba(19, 19, 24, 0.05);
-    padding: 150px;
+    padding-top: 110px;
+    padding-bottom: 110px;
 }
+
+
 
 .footer-title {
     display: flex;
     justify-content: center;
+    gap: 10px;
     align-items: center;
     margin-bottom: 15px;
 }
@@ -519,4 +523,244 @@ footer section
     margin-bottom: 50px;
     background-color: #e8e6e6;
     border: 0;
+
+}
+
+.copyright {
+    text-align: center;
+}
+
+
+
+
+/* media Query section */
+/* for mobile responsive */
+@media screen and (max-width:600px) {
+    header {
+        padding: 10px;
+    }
+
+    .banner {
+        height: 100%;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .hamburger-button {
+        display: inline;
+        font-size: 24px;
+        width: 30px;
+        border: 0;
+        background-color: white;
+        padding: 30px;
+    }
+
+    .banner-title {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .button-container {
+        flex-direction: column;
+        padding: 40px;
+        width: 70%;
+    }
+
+    .search-button{
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    .primary-btn {
+        width: 100%;
+    }
+
+    .banner-description {
+        margin-bottom: 10px;
+    }
+
+    .banner-content {
+        padding-top: 20px;
+    }
+
+    .tour-section-container {
+        flex-direction: column;
+    }
+
+    .tour-img img {
+        width: 80%;
+        margin: auto;
+        margin-left: 10%;
+    }
+
+    .tour-img {
+        width: 100%;
+    }
+
+    .choose-container-des {
+        width: 90%;
+    }
+
+    .tour-info {
+        padding: 20px;
+    }
+
+    .sec-btn {
+        width: 174px;
+        height: 52px;
+        font-weight: 800;
+        font-size: 16px;
+    }
+
+    .choose-container-all {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .choose-container-info,
+    .choose-des {
+        width: 100%;
+    }
+
+    .choose-container-title {
+        margin: auto;
+    }
+
+    .choose-content-2,
+    .choose-content {
+        width: 309px;
+        height: 100%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .input-container {
+        flex-direction: column;
+    }
+
+    .input-section {
+        width: 50%;
+        height: 300px;
+        flex-shrink: 0;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .input-des,
+    hr,
+    .sub-btn {
+        width: 100%;
+    }
+
+    .input-section-img img {
+        
+        width: 80%;
+        height: 300px;
+        margin-left: 50px;
+        margin-top: -50px;
+    }
+
+    .travel {
+        text-align: center;
+        width: 50%;
+        color: #FFF;
+        height: 100px;
+        transform: rotate(-19.628deg);
+        border-radius: 16px;
+        background: #FF5400;
+        position: relative;
+        left: 38%;
+        margin-top: 32px;
+    }
+
+    .footer-section {
+        padding: 30px;
+    }
+
+    .footer-description {
+        width: 100%;
+    }
+
+    .horizontal {
+        width: 100%;
+    }
+
+    .destination-img {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .destination-img img {
+        width: 100%;
+        margin: auto;
+        height: 200px;
+    }
+
+    .grid-info {
+        width: 100%;
+    }
+
+    .grid-title,
+    .grid-info-des {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .maldive {
+        top: 100px;
+        left: 40%;
+    }
+
+    .indonesia {
+        top: 310px;
+        left: 40%;
+    }
+
+    .srilanka {
+        top: 100px;
+        left: 40%;
+    }
+
+    .america {
+        top: 320px;
+        left: 35%;
+    }
+
+    .kashmir {
+        top: 545px;
+        right: 43%;
+    }
+
+    .bangladesh {
+        top: 100px;
+        left: 35%;
+    }
+
+    .bandarban {
+        position: absolute;
+        top: 310px;
+        right: 35%;
+    }
+
+    .own-content {
+        width: 100%;
+        height: 100%;
+    }
+
+    .my-content-title,
+    .exp-description {
+        margin-left: 0;
+        width: 80%;
+        margin: auto;
+    }
+
+    .exp-btn {
+        padding: 7px;
+        margin-left: 40%;
+        text-align: center;
+    }
 }
