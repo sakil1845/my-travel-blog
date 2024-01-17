@@ -404,7 +404,7 @@ ul .home {
     padding: 50px;
     width: 474px;
     height: 322px;
-   
+
     margin-bottom: 120px;
 
 }
@@ -457,8 +457,8 @@ input {
 .input-section-img img {
     width: 500px;
     height: 422px;
-   
-   
+
+
 }
 
 .travel {
@@ -474,4 +474,49 @@ input {
     top: -170px;
     left: 170px;
 
+}
+
+
+footer section
+
+.footer-section {
+    margin-top: 120px;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 150px;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.footer-description {
+    width: 769px;
+    margin: auto;
+    margin-bottom: 30px;
+    color: #5A5A5D;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.icons {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.horizontal {
+    width: 872px;
+    height: 1px;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: #e8e6e6;
+    border: 0;
 }
