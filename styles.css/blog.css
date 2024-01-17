@@ -275,6 +275,7 @@ ul .home {
 .choose-container-info {
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .choose-content {
@@ -331,4 +332,54 @@ ul .home {
 .choose-content-2 {
     margin: auto;
     margin-top: 20px;
+}
+
+
+/*Based on my own experience part*/
+
+.my-experience-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.my-content {
+
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.my-exp-title {
+
+    color: #131318;
+    font-size: 40px;
+
+}
+
+.exp-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+}
+
+
+.t-list {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-left: 30px;
+    max-width: 525px;
+    margin-bottom: 20px;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.exp-img{
+    border-radius: 10px;
 }
